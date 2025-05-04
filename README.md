@@ -1,7 +1,7 @@
 # sharp-rportfwd
 A CSharp implementation of Reverse Port Forwarder. 
 
-**Notes: **
+### Features
 - It supports a kill switch port to kill the application's process once the port is called/scanned/telneted. 
 - Kill switch is optional; it will not listen to a default port if not assigned.
 
@@ -10,7 +10,7 @@ A CSharp implementation of Reverse Port Forwarder.
 rportfwd.exe <LPORT> <RHOST:RPORT> [KILL_SWITCH_PORT]
 ```
 
-Example: 
+**Example:**
 ```
 rportfwd.exe 4444 localhost:5555 9911
 
