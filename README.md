@@ -19,6 +19,15 @@ rportfwd.exe 4444 localhost:5555 9911
 [!] Kill switch armed. Connect to port 9911 to terminate.
 ```
 
+**Kill switch**
+```
+# Using beacon scanner
+portscan HOST 9911
+# Over socks 
+proxychains nc -nv HOST 9911
+Test-NetConnection HOST -Port 9911
+```
+
 ### Compilation
 You can use "Visual Studio Developer Command Prompt" to compile it using CSC
 ```
