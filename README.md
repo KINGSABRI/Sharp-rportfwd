@@ -22,7 +22,7 @@ rportfwd.exe 4444 localhost:5555 9911
 **Kill switch**
 ```
 # Using beacon scanner
-portscan HOST 9911
+portscan HOST 9911 none
 # Over socks 
 proxychains nc -nv HOST 9911
 Test-NetConnection HOST -Port 9911
